@@ -1,0 +1,51 @@
+*{
+    font-family: Raleway;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+   
+    background-image: url("/hehe.jpg");
+    background-size: cover;
+}
+
+#outer-div{
+    margin: auto;
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#inner-div{
+    margin: auto;
+    width: 50%;
+    background-color: rgba(255,255,255,0.5);
+    border: 5px solid black;
+    border-radius: 10px;
+    height:50vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#headingtxt{
+    font-size: 50px;
+    text-align: center;
+    font-family: Raleway;
+}
+
+
+#btn{
+    margin-left: 38%;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    font-size: 18px;
+    font-family: Raleway;
+    background-color: #54cfe2;
+    border: 2px solid black;
+    border-radius:5px;
+    cursor: pointer;
+}
